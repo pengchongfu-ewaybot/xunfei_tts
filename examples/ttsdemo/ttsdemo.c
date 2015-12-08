@@ -125,7 +125,7 @@ int main(int argc, char* argv[])
 {
 	///APPID请勿随意改动
 	const char* login_configs = " appid = 565d1316, work_dir =   .  ";//登录参数
-	const char* text  = "科大讯飞是亚太地区最大的语音上市公司，股票代码：002230";//待合成的文本
+	const char* text  = argv[1];//待合成的文本
 	const char*  filename = "text_to_speech_test.pcm"; //合成的语音文件
 	const char* param = "engine_type = local, text_encoding = UTF8, tts_res_path = fo|res/tts/xiaoyan.jet;fo|res/tts/common.jet, sample_rate = 16000";//参数可参考开发文档
 	int ret = 0;
@@ -147,7 +147,7 @@ int main(int argc, char* argv[])
 	}
 exit:
     MSPLogout();//退出登录
-	key = getchar();//退出
+	//key = getchar();//退出
 	return 0;
 }
 

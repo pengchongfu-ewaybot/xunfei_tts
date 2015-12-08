@@ -1,0 +1,528 @@
+============================================================
+Time  2015/12/08 20:05:20 006 
+============================================================
+[2015/12/08 20:05:20 006] auth       428  SYS_MSG_LOAD  
+[2015/12/08 20:05:20 006] auth       278  AUTH_MSG_INIT  
+[2015/12/08 20:05:20 006] auth       279  auth  auth  268436457  1423641507  
+[2015/12/08 20:05:20 007] auth       290  athinfo  {"authorize":[{"busin":"aisound","ver":"0"}]}  
+[2015/12/08 20:05:20 007] auth       292  auth_user_type=  nil  
+[2015/12/08 20:05:20 007] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/12/08 20:05:20 007] auth       357  authstat =   0  
+[2015/12/08 20:05:20 007] transport  662  net type:  standard  
+[2015/12/08 20:05:20 007] transport  663  net operator:  def  
+[2015/12/08 20:05:20 007] transport  664  use proxy:  false  
+[2015/12/08 20:05:20 007] auth       256  [session] send auth request  
+[2015/12/08 20:05:20 007] transport  829  using cached ip:  117.121.21.147  
+[2015/12/08 20:05:20 007] transport  864  ns_i =  nil  
+[2015/12/08 20:05:20 007] transport  939  [soc] connect   117.121.21.147  80  
+[2015/12/08 20:05:20 009] auth       208  use loginid  
+[2015/12/08 20:05:20 021] transport  388  [soc] [0] connected  
+[2015/12/08 20:05:20 021] transport  978  build http request.  
+[2015/12/08 20:05:20 021] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 450
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsa6GinCHAYNbXbCuOKNkmHbiXSZJw0xp1KJdJknDTGnUg==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+#w˚ôŒkÀÿ¡89G:C:;«≈A≈A<@<<<A¡E@>>G<8@@8G9;tu§~{  
+[2015/12/08 20:05:20 023] transport  410  [soc] [0] send ok  625  
+[2015/12/08 20:05:20 048] auth       434  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:10:49 716 
+============================================================
+[2015/12/08 20:10:49 716] auth       428  SYS_MSG_LOAD  
+[2015/12/08 20:10:49 717] auth       278  AUTH_MSG_INIT  
+[2015/12/08 20:10:49 717] auth       279  auth  auth  268436457  1423641507  
+[2015/12/08 20:10:49 717] auth       290  athinfo  {"authorize":[{"busin":"aisound","ver":"0"}]}  
+[2015/12/08 20:10:49 717] auth       292  auth_user_type=  nil  
+[2015/12/08 20:10:49 717] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/12/08 20:10:49 717] auth       357  authstat =   0  
+[2015/12/08 20:10:49 718] transport  662  net type:  standard  
+[2015/12/08 20:10:49 718] transport  663  net operator:  def  
+[2015/12/08 20:10:49 718] transport  664  use proxy:  false  
+[2015/12/08 20:10:49 718] auth       256  [session] send auth request  
+[2015/12/08 20:10:49 719] transport  829  using cached ip:  117.121.21.146  
+[2015/12/08 20:10:49 719] transport  864  ns_i =  nil  
+[2015/12/08 20:10:49 719] transport  939  [soc] connect   117.121.21.146  80  
+[2015/12/08 20:10:49 721] auth       208  use loginid  
+[2015/12/08 20:10:49 723] transport  388  [soc] [0] connected  
+[2015/12/08 20:10:49 723] transport  978  build http request.  
+[2015/12/08 20:10:49 723] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 450
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsa6GinCHAYNbSo9RHjslWM7iXSZJw0xp1KJdJknDTGnUg==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+âäŒÍBUÿ¡89G:C:;«≈A≈A<@<<<A¡E@>>G<8@@8G9;tu§~{  
+[2015/12/08 20:10:49 725] transport  410  [soc] [0] send ok  625  
+[2015/12/08 20:10:49 747] auth       434  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:18:09 642 
+============================================================
+[2015/12/08 20:18:09 642] auth       428  SYS_MSG_LOAD  
+[2015/12/08 20:18:09 643] auth       278  AUTH_MSG_INIT  
+[2015/12/08 20:18:09 643] auth       279  auth  auth  268436457  1423641507  
+[2015/12/08 20:18:09 643] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aisound"}]}  
+[2015/12/08 20:18:09 643] auth       292  auth_user_type=  nil  
+[2015/12/08 20:18:09 643] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/12/08 20:18:09 643] auth       357  authstat =   0  
+[2015/12/08 20:18:09 644] transport  662  net type:  standard  
+[2015/12/08 20:18:09 644] transport  663  net operator:  def  
+[2015/12/08 20:18:09 644] transport  664  use proxy:  false  
+[2015/12/08 20:18:09 644] auth       256  [session] send auth request  
+[2015/12/08 20:18:09 644] transport  829  using cached ip:  116.213.69.199  
+[2015/12/08 20:18:09 644] transport  864  ns_i =  nil  
+[2015/12/08 20:18:09 644] transport  939  [soc] connect   116.213.69.199  80  
+[2015/12/08 20:18:09 645] auth       208  use loginid  
+[2015/12/08 20:18:09 647] transport  388  [soc] [0] connected  
+[2015/12/08 20:18:09 647] transport  978  build http request.  
+[2015/12/08 20:18:09 647] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 450
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsa6GinCHAYNbZtdUo4axLJGiXSZJw0xp1KJdJknDTGnUg==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+£},ërzïÿ¡89G:C:;«≈A≈A<@<<<A¡E@>>G<8@@8G9;tu§~{  
+[2015/12/08 20:18:09 649] transport  410  [soc] [0] send ok  625  
+[2015/12/08 20:18:09 687] transport  419  [soc] [0] readable  
+[2015/12/08 20:18:09 688] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/12/08 20:18:09 637
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/12/08 20:18:09 664
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bInXxhELXMdKjf/WAnF3dPf9anZI30QAWPja8KfRsc/O^^GHVr44O7CfKS9nDpsJHGj5t249JKcCL/4^C5Jf^XYv/j4Lkl/5d
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+  
+[2015/12/08 20:18:09 688] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:18:09 688] transport  1200 port updated  80  
+[2015/12/08 20:18:09 688] transport  1202 switch  80  
+[2015/12/08 20:18:09 688] auth       144  [trans] [id = auth] readable  
+[2015/12/08 20:18:09 688] transport  957  [soc] disconnect   
+[2015/12/08 20:18:09 688] auth       155  tostring(auth_json)=  {"aisound":{"ver":"1","bus":{"expire_date":1452219906,"forbid":"0","nlimit":3}}}  
+[2015/12/08 20:18:09 689] auth       162  write auth file failed!, err=  11200  
+[2015/12/08 20:18:09 689] auth       165  auth ok!  
+============================================================
+Time  2015/12/08 20:22:16 561 
+============================================================
+[2015/12/08 20:22:16 562] auth       428  SYS_MSG_LOAD  
+[2015/12/08 20:22:16 562] auth       278  AUTH_MSG_INIT  
+[2015/12/08 20:22:16 562] auth       279  auth  auth  268436457  1423641507  
+[2015/12/08 20:22:16 562] auth       290  athinfo  {"authorize":[{"busin":"aisound","ver":"0"}]}  
+[2015/12/08 20:22:16 562] auth       292  auth_user_type=  nil  
+[2015/12/08 20:22:16 562] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/12/08 20:22:16 562] auth       357  authstat =   0  
+[2015/12/08 20:22:16 562] transport  662  net type:  standard  
+[2015/12/08 20:22:16 563] transport  663  net operator:  def  
+[2015/12/08 20:22:16 563] transport  664  use proxy:  false  
+[2015/12/08 20:22:16 563] auth       256  [session] send auth request  
+[2015/12/08 20:22:16 563] transport  829  using cached ip:  116.213.69.200  
+[2015/12/08 20:22:16 563] transport  864  ns_i =  nil  
+[2015/12/08 20:22:16 563] transport  939  [soc] connect   116.213.69.200  80  
+[2015/12/08 20:22:16 563] auth       208  use loginid  
+[2015/12/08 20:22:16 568] transport  388  [soc] [0] connected  
+[2015/12/08 20:22:16 568] transport  978  build http request.  
+[2015/12/08 20:22:16 569] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 450
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsa6GinCHAYNbRr^DFTtXccbiXSZJw0xp1KJdJknDTGnUg==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+…Ê/LŸeÏÿ¡89G:C:;«≈A≈A<@<<<A¡E@>>G<8@@8G9;tu§~{  
+[2015/12/08 20:22:16 570] transport  410  [soc] [0] send ok  625  
+[2015/12/08 20:22:16 571] auth       434  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:29:52 411 
+============================================================
+[2015/12/08 20:29:52 412] auth       428  SYS_MSG_LOAD  
+[2015/12/08 20:29:52 412] auth       278  AUTH_MSG_INIT  
+[2015/12/08 20:29:52 412] auth       279  auth  auth  268436457  1423641507  
+[2015/12/08 20:29:52 412] auth       290  athinfo  {"authorize":[{"busin":"aisound","ver":"0"}]}  
+[2015/12/08 20:29:52 412] auth       292  auth_user_type=  nil  
+[2015/12/08 20:29:52 412] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/12/08 20:29:52 412] auth       357  authstat =   0  
+[2015/12/08 20:29:52 413] transport  662  net type:  standard  
+[2015/12/08 20:29:52 413] transport  663  net operator:  def  
+[2015/12/08 20:29:52 413] transport  664  use proxy:  false  
+[2015/12/08 20:29:52 413] auth       256  [session] send auth request  
+[2015/12/08 20:29:52 413] transport  829  using cached ip:  116.213.69.201  
+[2015/12/08 20:29:52 413] transport  864  ns_i =  nil  
+[2015/12/08 20:29:52 413] transport  939  [soc] connect   116.213.69.201  80  
+[2015/12/08 20:29:52 414] auth       208  use loginid  
+[2015/12/08 20:29:52 427] transport  388  [soc] [0] connected  
+[2015/12/08 20:29:52 427] transport  978  build http request.  
+[2015/12/08 20:29:52 428] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 450
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsa6GinCHAYNbTaF01UFldLliXSZJw0xp1KJdJknDTGnUg==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+oU9+òW#ÿ¡89G:C:;«≈A≈A<@<<<A¡E@>>G<8@@8G9;tu§~{  
+[2015/12/08 20:29:52 429] transport  410  [soc] [0] send ok  625  
+[2015/12/08 20:29:52 431] auth       434  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:33:40 067 
+============================================================
+[2015/12/08 20:33:40 067] auth       428  SYS_MSG_LOAD  
+[2015/12/08 20:33:40 067] auth       278  AUTH_MSG_INIT  
+[2015/12/08 20:33:40 067] auth       279  auth  auth  268436457  1423641507  
+[2015/12/08 20:33:40 067] auth       290  athinfo  {"authorize":[{"busin":"aisound","ver":"0"}]}  
+[2015/12/08 20:33:40 068] auth       292  auth_user_type=  nil  
+[2015/12/08 20:33:40 068] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/12/08 20:33:40 068] auth       357  authstat =   0  
+[2015/12/08 20:33:40 068] transport  662  net type:  standard  
+[2015/12/08 20:33:40 068] transport  663  net operator:  def  
+[2015/12/08 20:33:40 068] transport  664  use proxy:  false  
+[2015/12/08 20:33:40 068] auth       256  [session] send auth request  
+[2015/12/08 20:33:40 068] transport  829  using cached ip:  117.121.21.147  
+[2015/12/08 20:33:40 068] transport  864  ns_i =  nil  
+[2015/12/08 20:33:40 068] transport  939  [soc] connect   117.121.21.147  80  
+[2015/12/08 20:33:40 068] auth       208  use loginid  
+[2015/12/08 20:33:40 070] transport  388  [soc] [0] connected  
+[2015/12/08 20:33:40 071] transport  978  build http request.  
+[2015/12/08 20:33:40 071] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 450
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsa6GinCHAYNbZsyWAri^^wtiXSZJw0xp1KJdJknDTGnUg==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+®îÚA‘I≥˜ÿ¡89G:C:;«≈A≈A<@<<<A¡E@>>G<8@@8G9;tu§~{  
+[2015/12/08 20:33:40 071] transport  410  [soc] [0] send ok  625  
+[2015/12/08 20:33:40 077] auth       434  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:34:08 982 
+============================================================
+[2015/12/08 20:34:08 982] auth       428  SYS_MSG_LOAD  
+[2015/12/08 20:34:08 983] auth       278  AUTH_MSG_INIT  
+[2015/12/08 20:34:08 983] auth       279  auth  auth  268436457  1423641507  
+[2015/12/08 20:34:08 983] auth       290  athinfo  {"authorize":[{"busin":"aisound","ver":"0"}]}  
+[2015/12/08 20:34:08 983] auth       292  auth_user_type=  nil  
+[2015/12/08 20:34:08 983] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/12/08 20:34:08 983] auth       357  authstat =   0  
+[2015/12/08 20:34:08 983] transport  662  net type:  standard  
+[2015/12/08 20:34:08 983] transport  663  net operator:  def  
+[2015/12/08 20:34:08 983] transport  664  use proxy:  false  
+[2015/12/08 20:34:08 983] auth       256  [session] send auth request  
+[2015/12/08 20:34:08 983] transport  829  using cached ip:  116.213.69.201  
+[2015/12/08 20:34:08 983] transport  864  ns_i =  nil  
+[2015/12/08 20:34:08 983] transport  939  [soc] connect   116.213.69.201  80  
+[2015/12/08 20:34:08 984] auth       208  use loginid  
+[2015/12/08 20:34:08 988] auth       434  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:37:02 456 
+============================================================
+[2015/12/08 20:37:02 456] auth       428  SYS_MSG_LOAD  
+[2015/12/08 20:37:02 456] auth       278  AUTH_MSG_INIT  
+[2015/12/08 20:37:02 456] auth       279  auth  auth  268436457  1423641507  
+[2015/12/08 20:37:02 457] auth       290  athinfo  {"authorize":[{"busin":"aisound","ver":"0"}]}  
+[2015/12/08 20:37:02 457] auth       292  auth_user_type=  nil  
+[2015/12/08 20:37:02 457] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/12/08 20:37:02 457] auth       357  authstat =   0  
+[2015/12/08 20:37:02 457] transport  662  net type:  standard  
+[2015/12/08 20:37:02 457] transport  663  net operator:  def  
+[2015/12/08 20:37:02 457] transport  664  use proxy:  false  
+[2015/12/08 20:37:02 457] auth       256  [session] send auth request  
+[2015/12/08 20:37:02 457] transport  829  using cached ip:  116.213.69.200  
+[2015/12/08 20:37:02 457] transport  864  ns_i =  nil  
+[2015/12/08 20:37:02 457] transport  939  [soc] connect   116.213.69.200  80  
+[2015/12/08 20:37:02 458] auth       208  use loginid  
+[2015/12/08 20:37:02 460] transport  388  [soc] [0] connected  
+[2015/12/08 20:37:02 460] transport  978  build http request.  
+[2015/12/08 20:37:02 461] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 450
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsa6GinCHAYNbQLkn470ngNJiXSZJw0xp1KJdJknDTGnUg==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+ßÓV{8¥ﬁÿ¡89G:C:;«≈A≈A<@<<<A¡E@>>G<8@@8G9;tu§~{  
+[2015/12/08 20:37:02 462] transport  410  [soc] [0] send ok  625  
+[2015/12/08 20:37:02 488] auth       434  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:39:24 994 
+============================================================
+[2015/12/08 20:39:24 994] auth       428  SYS_MSG_LOAD  
+[2015/12/08 20:39:24 994] auth       278  AUTH_MSG_INIT  
+[2015/12/08 20:39:24 994] auth       279  auth  auth  268436457  1423641507  
+[2015/12/08 20:39:24 994] auth       290  athinfo  {"authorize":[{"busin":"aisound","ver":"0"}]}  
+[2015/12/08 20:39:24 994] auth       292  auth_user_type=  nil  
+[2015/12/08 20:39:24 994] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/12/08 20:39:24 994] auth       357  authstat =   0  
+[2015/12/08 20:39:24 994] transport  662  net type:  standard  
+[2015/12/08 20:39:24 994] transport  663  net operator:  def  
+[2015/12/08 20:39:24 994] transport  664  use proxy:  false  
+[2015/12/08 20:39:24 994] auth       256  [session] send auth request  
+[2015/12/08 20:39:24 994] transport  829  using cached ip:  117.121.21.147  
+[2015/12/08 20:39:24 994] transport  864  ns_i =  nil  
+[2015/12/08 20:39:24 994] transport  939  [soc] connect   117.121.21.147  80  
+[2015/12/08 20:39:24 994] auth       208  use loginid  
+[2015/12/08 20:39:24 997] transport  388  [soc] [0] connected  
+[2015/12/08 20:39:24 997] transport  978  build http request.  
+[2015/12/08 20:39:24 998] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 450
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsa6GinCHAYNbYYNgUA^GOGRiXSZJw0xp1KJdJknDTGnUg==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+h
+éÔﬁ]ìÿ¡89G:C:;«≈A≈A<@<<<A¡E@>>G<8@@8G9;tu§~{  
+[2015/12/08 20:39:24 998] transport  410  [soc] [0] send ok  625  
+[2015/12/08 20:39:25 008] auth       434  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:49:31 056 
+============================================================
+[2015/12/08 20:49:31 056] auth       428  SYS_MSG_LOAD  
+[2015/12/08 20:49:31 056] auth       434  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:50:07 537 
+============================================================
+[2015/12/08 20:50:07 537] auth       428  SYS_MSG_LOAD  
+[2015/12/08 20:50:07 537] auth       278  AUTH_MSG_INIT  
+[2015/12/08 20:50:07 538] auth       279  auth  auth  268436457  1423641507  
+[2015/12/08 20:50:07 538] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aisound"}]}  
+[2015/12/08 20:50:07 538] auth       292  auth_user_type=  nil  
+[2015/12/08 20:50:07 538] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/12/08 20:50:07 538] auth       357  authstat =   0  
+[2015/12/08 20:50:07 538] transport  662  net type:  standard  
+[2015/12/08 20:50:07 538] transport  663  net operator:  def  
+[2015/12/08 20:50:07 540] transport  664  use proxy:  false  
+[2015/12/08 20:50:07 540] auth       256  [session] send auth request  
+[2015/12/08 20:50:07 540] transport  829  using cached ip:  116.213.69.201  
+[2015/12/08 20:50:07 540] transport  864  ns_i =  nil  
+[2015/12/08 20:50:07 540] transport  939  [soc] connect   116.213.69.201  80  
+[2015/12/08 20:50:07 541] auth       208  use loginid  
+[2015/12/08 20:50:07 545] transport  388  [soc] [0] connected  
+[2015/12/08 20:50:07 545] transport  978  build http request.  
+[2015/12/08 20:50:07 545] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 450
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsa6GinCHAYNbc022Yl944aDiXSZJw0xp1KJdJknDTGnUg==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Á¿@W>µ^˘ÿ¡89G:C:;«≈A≈A<@<<<A¡E@>>G<8@@8G9;tu§~{  
+[2015/12/08 20:50:07 546] transport  410  [soc] [0] send ok  625  
+[2015/12/08 20:50:07 567] transport  419  [soc] [0] readable  
+[2015/12/08 20:50:07 567] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/12/08 20:39:08 480
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/12/08 20:39:08 498
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bya4xXo2Ksi5sq5XzcbpJZNpiqxW0QylP^rcLSjy0zQm^^GHVr44O7CfKS9nDpsJHxShmMZ7a/bqL/4^C5Jf^XYv/j4Lkl/5d
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+ÆR›ÙÄ¿«?πYªZ∏>$«ﬂ#_>X'«'G!ß$?_Xs|—#ac–≥“Q„—_,lÔÌoll//oÌú]–êbPwÄ]lu`íêì„],l¢äŒ%Õ3Wx≈  
+[2015/12/08 20:50:07 567] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:50:07 567] transport  1200 port updated  80  
+[2015/12/08 20:50:07 567] transport  1202 switch  80  
+[2015/12/08 20:50:07 568] auth       144  [trans] [id = auth] readable  
+[2015/12/08 20:50:07 568] transport  957  [soc] disconnect   
+[2015/12/08 20:50:07 569] auth       155  tostring(auth_json)=  {"aisound":{"ver":"1","bus":{"expire_date":1452219906,"forbid":"0","nlimit":3}}}  
+[2015/12/08 20:50:07 570] auth       162  write auth file failed!, err=  11200  
+[2015/12/08 20:50:07 570] auth       165  auth ok!  
+============================================================
+Time  2015/12/08 20:50:46 866 
+============================================================
+[2015/12/08 20:50:46 866] auth       428  SYS_MSG_LOAD  
+[2015/12/08 20:50:46 867] auth       278  AUTH_MSG_INIT  
+[2015/12/08 20:50:46 867] auth       279  auth  auth  268436457  1423641507  
+[2015/12/08 20:50:46 867] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aisound"}]}  
+[2015/12/08 20:50:46 867] auth       292  auth_user_type=  nil  
+[2015/12/08 20:50:46 867] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/12/08 20:50:46 867] auth       357  authstat =   0  
+[2015/12/08 20:50:46 867] transport  662  net type:  standard  
+[2015/12/08 20:50:46 867] transport  663  net operator:  def  
+[2015/12/08 20:50:46 867] transport  664  use proxy:  false  
+[2015/12/08 20:50:46 867] auth       256  [session] send auth request  
+[2015/12/08 20:50:46 868] transport  829  using cached ip:  117.121.21.147  
+[2015/12/08 20:50:46 868] transport  864  ns_i =  nil  
+[2015/12/08 20:50:46 868] transport  939  [soc] connect   117.121.21.147  80  
+[2015/12/08 20:50:46 868] auth       208  use loginid  
+[2015/12/08 20:50:46 871] transport  388  [soc] [0] connected  
+[2015/12/08 20:50:46 871] transport  978  build http request.  
+[2015/12/08 20:50:46 871] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 450
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsa6GinCHAYNbSRN/^KkYMF6iXSZJw0xp1KJdJknDTGnUg==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+’;Ê8û,5≈ÿ¡89G:C:;«≈A≈A<@<<<A¡E@>>G<8@@8G9;tu§~{  
+[2015/12/08 20:50:46 872] transport  410  [soc] [0] send ok  625  
+[2015/12/08 20:50:46 896] auth       434  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:54:39 327 
+============================================================
+[2015/12/08 20:54:39 327] auth       428  SYS_MSG_LOAD  
+[2015/12/08 20:54:39 327] auth       278  AUTH_MSG_INIT  
+[2015/12/08 20:54:39 327] auth       279  auth  auth  268436457  1423641507  
+[2015/12/08 20:54:39 328] auth       290  athinfo  {"authorize":[{"busin":"aisound","ver":"0"}]}  
+[2015/12/08 20:54:39 328] auth       292  auth_user_type=  nil  
+[2015/12/08 20:54:39 328] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/12/08 20:54:39 328] auth       357  authstat =   0  
+[2015/12/08 20:54:39 328] transport  662  net type:  standard  
+[2015/12/08 20:54:39 328] transport  663  net operator:  def  
+[2015/12/08 20:54:39 328] transport  664  use proxy:  false  
+[2015/12/08 20:54:39 328] auth       256  [session] send auth request  
+[2015/12/08 20:54:39 328] transport  829  using cached ip:  116.213.69.200  
+[2015/12/08 20:54:39 329] transport  864  ns_i =  nil  
+[2015/12/08 20:54:39 329] transport  939  [soc] connect   116.213.69.200  80  
+[2015/12/08 20:54:39 330] auth       208  use loginid  
+[2015/12/08 20:54:39 352] transport  388  [soc] [0] connected  
+[2015/12/08 20:54:39 352] transport  978  build http request.  
+[2015/12/08 20:54:39 352] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 450
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsa6GinCHAYNbTytLIshBH0jiXSZJw0xp1KJdJknDTGnUg==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+°¿"¯£ÿ¡89G:C:;«≈A≈A<@<<<A¡E@>>G<8@@8G9;tu§~{  
+[2015/12/08 20:54:39 353] transport  410  [soc] [0] send ok  625  
+[2015/12/08 20:54:39 367] auth       434  SYS_MSG_SHUTDOWN  

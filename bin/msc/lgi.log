@@ -1,0 +1,1481 @@
+============================================================
+Time  2015/12/08 20:05:19 934 
+============================================================
+[2015/12/08 20:05:19 934] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:05:19 936] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(a4014800) 
+[2015/12/08 20:05:19 936] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:05:19 937] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:05:19 937] lgi        382  auth_time_str=  2015/12/08 20:05:19  
+[2015/12/08 20:05:19 937] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:05:19 937] lgi        396  auth_check  true  
+[2015/12/08 20:05:19 937] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:05:19 938] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:05:19 938] lgi        526  lgistat =   0  
+[2015/12/08 20:05:19 938] transport  655  switch 80  
+[2015/12/08 20:05:19 938] transport  662  net type:  standard  
+[2015/12/08 20:05:19 938] transport  663  net operator:  def  
+[2015/12/08 20:05:19 938] transport  664  use proxy:  false  
+[2015/12/08 20:05:19 938] lgi        324  [session] send lgi request  
+[2015/12/08 20:05:19 938] transport  864  ns_i =  nil  
+[2015/12/08 20:05:19 940] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:05:19 948] transport  136  [dns] [0] response 117.121.21.147  
+[2015/12/08 20:05:19 948] transport  144  117  121  21  147  
+[2015/12/08 20:05:19 949] transport  173  iplist not avail  
+[2015/12/08 20:05:19 949] transport  225  expected ip  
+[2015/12/08 20:05:19 949] transport  939  [soc] connect   117.121.21.147  80  
+[2015/12/08 20:05:19 966] transport  388  [soc] [0] connected  
+[2015/12/08 20:05:19 967] transport  978  build http request.  
+[2015/12/08 20:05:19 967] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:05:19 969] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:05:19 997] transport  419  [soc] [0] readable  
+[2015/12/08 20:05:19 997] transport  1330 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 160
+X-Req-Date: 2015/12/08 20:05:19 955
+Cache-Control: no-cache
+CL: 160
+X-Res-Date: 2015/12/08 20:05:19 970
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&uid=u449576319&key=0bH79zNiOGsKq7fOotJf^ddeoNwywgyp0pl0tIY4L5RlW^^GHVr44O7CfKS9nDpsJHQ0J0knNewt2L/4^C5Jf^XYv/j4Lkl/5d  
+[2015/12/08 20:05:19 998] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:05:19 998] transport  1200 port updated  80  
+[2015/12/08 20:05:19 998] transport  1202 switch  80  
+[2015/12/08 20:05:19 998] lgi        165  [trans] [id = lgi_] readable  
+[2015/12/08 20:05:19 998] transport  957  [soc] disconnect   
+[2015/12/08 20:05:20 000] lgi        195  lgi resp!  
+[2015/12/08 20:05:20 000] lgi        202  lgi ok!  
+[2015/12/08 20:05:20 052] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:10:49 655 
+============================================================
+[2015/12/08 20:10:49 655] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:10:49 656] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(50014800) 
+[2015/12/08 20:10:49 656] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:10:49 656] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:10:49 656] lgi        382  auth_time_str=  2015/12/08 20:10:49  
+[2015/12/08 20:10:49 656] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:10:49 656] lgi        396  auth_check  true  
+[2015/12/08 20:10:49 657] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:10:49 657] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:10:49 657] lgi        526  lgistat =   0  
+[2015/12/08 20:10:49 657] transport  655  switch 80  
+[2015/12/08 20:10:49 657] transport  662  net type:  standard  
+[2015/12/08 20:10:49 657] transport  663  net operator:  def  
+[2015/12/08 20:10:49 657] transport  664  use proxy:  false  
+[2015/12/08 20:10:49 658] lgi        324  [session] send lgi request  
+[2015/12/08 20:10:49 658] transport  864  ns_i =  nil  
+[2015/12/08 20:10:49 659] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:10:49 662] transport  136  [dns] [0] response 117.121.21.146  
+[2015/12/08 20:10:49 662] transport  144  117  121  21  146  
+[2015/12/08 20:10:49 662] transport  173  iplist not avail  
+[2015/12/08 20:10:49 662] transport  225  expected ip  
+[2015/12/08 20:10:49 662] transport  939  [soc] connect   117.121.21.146  80  
+[2015/12/08 20:10:49 672] transport  388  [soc] [0] connected  
+[2015/12/08 20:10:49 673] transport  978  build http request.  
+[2015/12/08 20:10:49 673] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:10:49 674] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:10:49 707] transport  419  [soc] [0] readable  
+[2015/12/08 20:10:49 707] transport  1330 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 160
+X-Req-Date: 2015/12/08 20:10:49 664
+Cache-Control: no-cache
+CL: 160
+X-Res-Date: 2015/12/08 20:10:49 677
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&uid=u449576649&key=0bH79zNiOGsKqjf/WAnF3dPfdCe0D5^LZYAu3ER8pGeGC^^GHVr44O7CfKS9nDpsJH9dqzgJrnWuiL/4^C5Jf^XYv/j4Lkl/5d  
+[2015/12/08 20:10:49 707] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:10:49 708] transport  1200 port updated  80  
+[2015/12/08 20:10:49 708] transport  1202 switch  80  
+[2015/12/08 20:10:49 708] lgi        165  [trans] [id = lgi_] readable  
+[2015/12/08 20:10:49 708] transport  957  [soc] disconnect   
+[2015/12/08 20:10:49 709] lgi        195  lgi resp!  
+[2015/12/08 20:10:49 709] lgi        202  lgi ok!  
+[2015/12/08 20:10:49 749] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:18:09 588 
+============================================================
+[2015/12/08 20:18:09 588] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:18:09 589] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(dc013a00) 
+[2015/12/08 20:18:09 589] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:18:09 589] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:18:09 590] lgi        382  auth_time_str=  2015/12/08 20:18:09  
+[2015/12/08 20:18:09 590] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:18:09 590] lgi        396  auth_check  true  
+[2015/12/08 20:18:09 590] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:18:09 591] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:18:09 591] lgi        526  lgistat =   0  
+[2015/12/08 20:18:09 591] transport  655  switch 80  
+[2015/12/08 20:18:09 591] transport  662  net type:  standard  
+[2015/12/08 20:18:09 591] transport  663  net operator:  def  
+[2015/12/08 20:18:09 591] transport  664  use proxy:  false  
+[2015/12/08 20:18:09 591] lgi        324  [session] send lgi request  
+[2015/12/08 20:18:09 591] transport  864  ns_i =  nil  
+[2015/12/08 20:18:09 593] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:18:09 597] transport  136  [dns] [0] response 116.213.69.199  
+[2015/12/08 20:18:09 597] transport  144  116  213  69  199  
+[2015/12/08 20:18:09 597] transport  173  iplist not avail  
+[2015/12/08 20:18:09 597] transport  225  expected ip  
+[2015/12/08 20:18:09 598] transport  939  [soc] connect   116.213.69.199  80  
+[2015/12/08 20:18:09 605] transport  388  [soc] [0] connected  
+[2015/12/08 20:18:09 605] transport  978  build http request.  
+[2015/12/08 20:18:09 606] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:18:09 607] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:18:09 635] transport  419  [soc] [0] readable  
+[2015/12/08 20:18:09 635] transport  1330 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 160
+X-Req-Date: 2015/12/08 20:18:09 596
+Cache-Control: no-cache
+CL: 160
+X-Res-Date: 2015/12/08 20:18:09 619
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&uid=u449577089&key=0bya4xXo2Ksi6isogSmtQK/Xe3q09bWno5Pja8KfRsc/O^^GHVr44O7CfKS9nDpsJHGj5t249JKcCL/4^C5Jf^XYv/j4Lkl/5d  
+[2015/12/08 20:18:09 635] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:18:09 635] transport  1200 port updated  80  
+[2015/12/08 20:18:09 635] transport  1202 switch  80  
+[2015/12/08 20:18:09 635] lgi        165  [trans] [id = lgi_] readable  
+[2015/12/08 20:18:09 635] transport  957  [soc] disconnect   
+[2015/12/08 20:18:09 638] lgi        195  lgi resp!  
+[2015/12/08 20:18:09 639] lgi        202  lgi ok!  
+[2015/12/08 20:18:09 690] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:21:24 681 
+============================================================
+[2015/12/08 20:21:24 681] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:21:24 682] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(10014800) 
+[2015/12/08 20:21:24 682] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:21:24 682] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:21:24 682] lgi        382  auth_time_str=  2015/12/08 20:21:24  
+[2015/12/08 20:21:24 682] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:21:24 682] lgi        396  auth_check  true  
+[2015/12/08 20:21:24 682] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:21:24 683] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:21:24 683] lgi        526  lgistat =   0  
+[2015/12/08 20:21:24 683] transport  655  switch 80  
+[2015/12/08 20:21:24 683] transport  662  net type:  standard  
+[2015/12/08 20:21:24 683] transport  663  net operator:  def  
+[2015/12/08 20:21:24 683] transport  664  use proxy:  false  
+[2015/12/08 20:21:24 683] lgi        324  [session] send lgi request  
+[2015/12/08 20:21:24 683] transport  864  ns_i =  nil  
+[2015/12/08 20:21:24 685] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:21:24 691] transport  136  [dns] [0] response 59.107.24.7  
+[2015/12/08 20:21:24 691] transport  144  59  107  24  7  
+[2015/12/08 20:21:24 691] transport  173  iplist not avail  
+[2015/12/08 20:21:24 691] transport  225  expected ip  
+[2015/12/08 20:21:24 692] transport  939  [soc] connect   59.107.24.7  80  
+[2015/12/08 20:21:24 736] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:22:16 508 
+============================================================
+[2015/12/08 20:22:16 508] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:22:16 509] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(e8014800) 
+[2015/12/08 20:22:16 510] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:22:16 510] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:22:16 510] lgi        382  auth_time_str=  2015/12/08 20:22:16  
+[2015/12/08 20:22:16 510] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:22:16 510] lgi        396  auth_check  true  
+[2015/12/08 20:22:16 510] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:22:16 511] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:22:16 511] lgi        526  lgistat =   0  
+[2015/12/08 20:22:16 512] transport  655  switch 80  
+[2015/12/08 20:22:16 512] transport  662  net type:  standard  
+[2015/12/08 20:22:16 512] transport  663  net operator:  def  
+[2015/12/08 20:22:16 512] transport  664  use proxy:  false  
+[2015/12/08 20:22:16 512] lgi        324  [session] send lgi request  
+[2015/12/08 20:22:16 512] transport  864  ns_i =  nil  
+[2015/12/08 20:22:16 514] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:22:16 517] transport  136  [dns] [0] response 116.213.69.200  
+[2015/12/08 20:22:16 517] transport  144  116  213  69  200  
+[2015/12/08 20:22:16 518] transport  173  iplist not avail  
+[2015/12/08 20:22:16 518] transport  225  expected ip  
+[2015/12/08 20:22:16 518] transport  939  [soc] connect   116.213.69.200  80  
+[2015/12/08 20:22:16 522] transport  388  [soc] [0] connected  
+[2015/12/08 20:22:16 522] transport  978  build http request.  
+[2015/12/08 20:22:16 523] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:22:16 524] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:22:16 554] transport  419  [soc] [0] readable  
+[2015/12/08 20:22:16 555] transport  1330 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 160
+X-Req-Date: 2015/12/08 20:22:16 515
+Cache-Control: no-cache
+CL: 160
+X-Res-Date: 2015/12/08 20:22:16 538
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&uid=u449577336&key=0btgFPoYz3hVi2HanYv1Jmyl93oJG96fFdtnKYsLhSKI6^^GHVr44O7CfKS9nDpsJHWI1BlXrttLSL/4^C5Jf^XYv/j4Lkl/5d  
+[2015/12/08 20:22:16 555] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:22:16 555] transport  1200 port updated  80  
+[2015/12/08 20:22:16 555] transport  1202 switch  80  
+[2015/12/08 20:22:16 555] lgi        165  [trans] [id = lgi_] readable  
+[2015/12/08 20:22:16 555] transport  957  [soc] disconnect   
+[2015/12/08 20:22:16 557] lgi        195  lgi resp!  
+[2015/12/08 20:22:16 557] lgi        202  lgi ok!  
+[2015/12/08 20:22:16 573] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:23:56 019 
+============================================================
+[2015/12/08 20:23:56 019] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:23:56 020] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(90014800) 
+[2015/12/08 20:23:56 020] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:23:56 020] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:23:56 020] lgi        382  auth_time_str=  2015/12/08 20:23:56  
+[2015/12/08 20:23:56 020] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:23:56 020] lgi        396  auth_check  true  
+[2015/12/08 20:23:56 020] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:23:56 021] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:23:56 021] lgi        526  lgistat =   0  
+[2015/12/08 20:23:56 021] transport  655  switch 80  
+[2015/12/08 20:23:56 021] transport  662  net type:  standard  
+[2015/12/08 20:23:56 021] transport  663  net operator:  def  
+[2015/12/08 20:23:56 021] transport  664  use proxy:  false  
+[2015/12/08 20:23:56 021] lgi        324  [session] send lgi request  
+[2015/12/08 20:23:56 021] transport  864  ns_i =  nil  
+[2015/12/08 20:23:56 024] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:23:56 031] transport  136  [dns] [0] response 59.107.24.5  
+[2015/12/08 20:23:56 031] transport  144  59  107  24  5  
+[2015/12/08 20:23:56 031] transport  173  iplist not avail  
+[2015/12/08 20:23:56 033] transport  225  expected ip  
+[2015/12/08 20:23:56 033] transport  939  [soc] connect   59.107.24.5  80  
+[2015/12/08 20:23:56 067] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:24:18 461 
+============================================================
+[2015/12/08 20:24:18 461] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:24:18 462] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(b4013a00) 
+[2015/12/08 20:24:18 462] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:24:18 462] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:24:18 462] lgi        382  auth_time_str=  2015/12/08 20:24:18  
+[2015/12/08 20:24:18 462] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:24:18 462] lgi        396  auth_check  true  
+[2015/12/08 20:24:18 462] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:24:18 462] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:24:18 463] lgi        526  lgistat =   0  
+[2015/12/08 20:24:18 463] transport  655  switch 80  
+[2015/12/08 20:24:18 463] transport  662  net type:  standard  
+[2015/12/08 20:24:18 463] transport  663  net operator:  def  
+[2015/12/08 20:24:18 463] transport  664  use proxy:  false  
+[2015/12/08 20:24:18 463] lgi        324  [session] send lgi request  
+[2015/12/08 20:24:18 463] transport  864  ns_i =  nil  
+[2015/12/08 20:24:18 464] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:24:18 471] transport  136  [dns] [0] response 116.213.69.199  
+[2015/12/08 20:24:18 471] transport  144  116  213  69  199  
+[2015/12/08 20:24:18 471] transport  173  iplist not avail  
+[2015/12/08 20:24:18 471] transport  225  expected ip  
+[2015/12/08 20:24:18 471] transport  939  [soc] connect   116.213.69.199  80  
+[2015/12/08 20:24:18 499] transport  388  [soc] [0] connected  
+[2015/12/08 20:24:18 499] transport  978  build http request.  
+[2015/12/08 20:24:18 499] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:24:18 500] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:24:18 520] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:24:33 852 
+============================================================
+[2015/12/08 20:24:33 852] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:24:33 853] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(40014840) 
+[2015/12/08 20:24:33 853] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:24:33 853] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:24:33 853] lgi        382  auth_time_str=  2015/12/08 20:24:33  
+[2015/12/08 20:24:33 853] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:24:33 853] lgi        396  auth_check  true  
+[2015/12/08 20:24:33 854] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:24:33 854] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:24:33 854] lgi        526  lgistat =   0  
+[2015/12/08 20:24:33 854] transport  655  switch 80  
+[2015/12/08 20:24:33 854] transport  662  net type:  standard  
+[2015/12/08 20:24:33 854] transport  663  net operator:  def  
+[2015/12/08 20:24:33 854] transport  664  use proxy:  false  
+[2015/12/08 20:24:33 854] lgi        324  [session] send lgi request  
+[2015/12/08 20:24:33 854] transport  864  ns_i =  nil  
+[2015/12/08 20:24:33 856] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:24:33 859] transport  136  [dns] [0] response 116.213.69.199  
+[2015/12/08 20:24:33 859] transport  144  116  213  69  199  
+[2015/12/08 20:24:33 859] transport  173  iplist not avail  
+[2015/12/08 20:24:33 860] transport  225  expected ip  
+[2015/12/08 20:24:33 860] transport  939  [soc] connect   116.213.69.199  80  
+[2015/12/08 20:24:33 888] transport  388  [soc] [0] connected  
+[2015/12/08 20:24:33 888] transport  978  build http request.  
+[2015/12/08 20:24:33 888] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:24:33 889] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:24:33 901] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:25:18 057 
+============================================================
+[2015/12/08 20:25:18 057] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:25:18 058] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(d8014840) 
+[2015/12/08 20:25:18 058] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:25:18 058] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:25:18 058] lgi        382  auth_time_str=  2015/12/08 20:25:18  
+[2015/12/08 20:25:18 058] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:25:18 058] lgi        396  auth_check  true  
+[2015/12/08 20:25:18 058] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:25:18 059] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:25:18 059] lgi        526  lgistat =   0  
+[2015/12/08 20:25:18 059] transport  655  switch 80  
+[2015/12/08 20:25:18 059] transport  662  net type:  standard  
+[2015/12/08 20:25:18 059] transport  663  net operator:  def  
+[2015/12/08 20:25:18 059] transport  664  use proxy:  false  
+[2015/12/08 20:25:18 059] lgi        324  [session] send lgi request  
+[2015/12/08 20:25:18 059] transport  864  ns_i =  nil  
+[2015/12/08 20:25:18 060] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:25:18 072] transport  136  [dns] [0] response 116.213.69.199  
+[2015/12/08 20:25:18 073] transport  144  116  213  69  199  
+[2015/12/08 20:25:18 073] transport  173  iplist not avail  
+[2015/12/08 20:25:18 073] transport  225  expected ip  
+[2015/12/08 20:25:18 073] transport  939  [soc] connect   116.213.69.199  80  
+[2015/12/08 20:25:18 085] transport  388  [soc] [0] connected  
+[2015/12/08 20:25:18 085] transport  978  build http request.  
+[2015/12/08 20:25:18 085] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:25:18 086] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:25:18 107] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:27:26 458 
+============================================================
+[2015/12/08 20:27:26 459] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:27:26 460] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(e8014800) 
+[2015/12/08 20:27:26 460] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:27:26 460] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:27:26 460] lgi        382  auth_time_str=  2015/12/08 20:27:26  
+[2015/12/08 20:27:26 460] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:27:26 461] lgi        396  auth_check  true  
+[2015/12/08 20:27:26 461] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:27:26 461] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:27:26 461] lgi        526  lgistat =   0  
+[2015/12/08 20:27:26 462] transport  655  switch 80  
+[2015/12/08 20:27:26 462] transport  662  net type:  standard  
+[2015/12/08 20:27:26 462] transport  663  net operator:  def  
+[2015/12/08 20:27:26 462] transport  664  use proxy:  false  
+[2015/12/08 20:27:26 462] lgi        324  [session] send lgi request  
+[2015/12/08 20:27:26 462] transport  864  ns_i =  nil  
+[2015/12/08 20:27:26 463] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:27:26 468] transport  136  [dns] [0] response 59.107.24.7  
+[2015/12/08 20:27:26 468] transport  144  59  107  24  7  
+[2015/12/08 20:27:26 468] transport  173  iplist not avail  
+[2015/12/08 20:27:26 468] transport  225  expected ip  
+[2015/12/08 20:27:26 468] transport  939  [soc] connect   59.107.24.7  80  
+[2015/12/08 20:27:26 523] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:28:53 400 
+============================================================
+[2015/12/08 20:28:53 400] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:28:53 402] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(c8014800) 
+[2015/12/08 20:28:53 402] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:28:53 402] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:28:53 402] lgi        382  auth_time_str=  2015/12/08 20:28:53  
+[2015/12/08 20:28:53 402] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:28:53 402] lgi        396  auth_check  true  
+[2015/12/08 20:28:53 402] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:28:53 403] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:28:53 403] lgi        526  lgistat =   0  
+[2015/12/08 20:28:53 404] transport  655  switch 80  
+[2015/12/08 20:28:53 404] transport  662  net type:  standard  
+[2015/12/08 20:28:53 404] transport  663  net operator:  def  
+[2015/12/08 20:28:53 404] transport  664  use proxy:  false  
+[2015/12/08 20:28:53 404] lgi        324  [session] send lgi request  
+[2015/12/08 20:28:53 404] transport  864  ns_i =  nil  
+[2015/12/08 20:28:53 411] transport  136  [dns] [0] response 116.213.69.200  
+[2015/12/08 20:28:53 411] transport  144  116  213  69  200  
+[2015/12/08 20:28:53 411] transport  173  iplist not avail  
+[2015/12/08 20:28:53 411] transport  225  expected ip  
+[2015/12/08 20:28:53 412] transport  939  [soc] connect   116.213.69.200  80  
+[2015/12/08 20:28:53 412] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:28:53 453] transport  388  [soc] [0] connected  
+[2015/12/08 20:28:53 453] transport  978  build http request.  
+[2015/12/08 20:28:53 454] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:28:53 455] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:28:53 483] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:29:52 356 
+============================================================
+[2015/12/08 20:29:52 356] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:29:52 357] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(74014800) 
+[2015/12/08 20:29:52 358] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:29:52 358] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:29:52 358] lgi        382  auth_time_str=  2015/12/08 20:29:52  
+[2015/12/08 20:29:52 358] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:29:52 358] lgi        396  auth_check  true  
+[2015/12/08 20:29:52 358] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:29:52 359] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:29:52 359] lgi        526  lgistat =   0  
+[2015/12/08 20:29:52 359] transport  655  switch 80  
+[2015/12/08 20:29:52 359] transport  662  net type:  standard  
+[2015/12/08 20:29:52 359] transport  663  net operator:  def  
+[2015/12/08 20:29:52 359] transport  664  use proxy:  false  
+[2015/12/08 20:29:52 359] lgi        324  [session] send lgi request  
+[2015/12/08 20:29:52 359] transport  864  ns_i =  nil  
+[2015/12/08 20:29:52 360] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:29:52 368] transport  136  [dns] [0] response 116.213.69.201  
+[2015/12/08 20:29:52 368] transport  144  116  213  69  201  
+[2015/12/08 20:29:52 368] transport  173  iplist not avail  
+[2015/12/08 20:29:52 368] transport  225  expected ip  
+[2015/12/08 20:29:52 369] transport  939  [soc] connect   116.213.69.201  80  
+[2015/12/08 20:29:52 386] transport  388  [soc] [0] connected  
+[2015/12/08 20:29:52 386] transport  978  build http request.  
+[2015/12/08 20:29:52 387] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:29:52 388] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:29:52 403] transport  419  [soc] [0] readable  
+[2015/12/08 20:29:52 403] transport  1330 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 160
+X-Req-Date: 2015/12/08 20:18:53 326
+Cache-Control: no-cache
+CL: 160
+X-Res-Date: 2015/12/08 20:18:53 338
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&uid=u449577792&key=0bOny/Af6sIXfrkreUCK7HQH0xitcRz/4XjXt8O6rzxGu^^GHVr44O7CfKS9nDpsJH58ApIVAzwt2L/4^C5Jf^XYv/j4Lkl/5d  
+[2015/12/08 20:29:52 404] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:29:52 404] transport  1200 port updated  80  
+[2015/12/08 20:29:52 404] transport  1202 switch  80  
+[2015/12/08 20:29:52 404] lgi        165  [trans] [id = lgi_] readable  
+[2015/12/08 20:29:52 404] transport  957  [soc] disconnect   
+[2015/12/08 20:29:52 405] lgi        195  lgi resp!  
+[2015/12/08 20:29:52 406] lgi        202  lgi ok!  
+[2015/12/08 20:29:52 433] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:30:55 000 
+============================================================
+[2015/12/08 20:30:55 000] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:30:55 001] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(6c014880) 
+[2015/12/08 20:30:55 001] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:30:55 001] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:30:55 002] lgi        382  auth_time_str=  2015/12/08 20:30:54  
+[2015/12/08 20:30:55 002] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:30:55 002] lgi        396  auth_check  true  
+[2015/12/08 20:30:55 002] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:30:55 003] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:30:55 003] lgi        526  lgistat =   0  
+[2015/12/08 20:30:55 003] transport  655  switch 80  
+[2015/12/08 20:30:55 003] transport  662  net type:  standard  
+[2015/12/08 20:30:55 003] transport  663  net operator:  def  
+[2015/12/08 20:30:55 003] transport  664  use proxy:  false  
+[2015/12/08 20:30:55 003] lgi        324  [session] send lgi request  
+[2015/12/08 20:30:55 003] transport  864  ns_i =  nil  
+[2015/12/08 20:30:55 004] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:30:55 008] transport  136  [dns] [0] response 117.121.21.147  
+[2015/12/08 20:30:55 008] transport  144  117  121  21  147  
+[2015/12/08 20:30:55 008] transport  173  iplist not avail  
+[2015/12/08 20:30:55 008] transport  225  expected ip  
+[2015/12/08 20:30:55 008] transport  939  [soc] connect   117.121.21.147  80  
+[2015/12/08 20:30:55 039] transport  388  [soc] [0] connected  
+[2015/12/08 20:30:55 040] transport  978  build http request.  
+[2015/12/08 20:30:55 040] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:30:55 042] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:30:55 075] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:32:36 271 
+============================================================
+[2015/12/08 20:32:36 271] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:32:36 272] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(c014800) 
+[2015/12/08 20:32:36 272] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:32:36 272] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:32:36 272] lgi        382  auth_time_str=  2015/12/08 20:32:36  
+[2015/12/08 20:32:36 272] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:32:36 272] lgi        396  auth_check  true  
+[2015/12/08 20:32:36 272] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:32:36 273] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:32:36 273] lgi        526  lgistat =   0  
+[2015/12/08 20:32:36 273] transport  655  switch 80  
+[2015/12/08 20:32:36 273] transport  662  net type:  standard  
+[2015/12/08 20:32:36 273] transport  663  net operator:  def  
+[2015/12/08 20:32:36 273] transport  664  use proxy:  false  
+[2015/12/08 20:32:36 273] lgi        324  [session] send lgi request  
+[2015/12/08 20:32:36 274] transport  864  ns_i =  nil  
+[2015/12/08 20:32:36 275] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:32:36 280] transport  136  [dns] [0] response 59.107.24.5  
+[2015/12/08 20:32:36 280] transport  144  59  107  24  5  
+[2015/12/08 20:32:36 280] transport  173  iplist not avail  
+[2015/12/08 20:32:36 280] transport  225  expected ip  
+[2015/12/08 20:32:36 281] transport  939  [soc] connect   59.107.24.5  80  
+[2015/12/08 20:32:36 341] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:33:25 427 
+============================================================
+[2015/12/08 20:33:25 427] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:33:25 429] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(4014800) 
+[2015/12/08 20:33:25 429] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:33:25 429] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:33:25 429] lgi        382  auth_time_str=  2015/12/08 20:33:25  
+[2015/12/08 20:33:25 429] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:33:25 429] lgi        396  auth_check  true  
+[2015/12/08 20:33:25 429] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:33:25 430] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:33:25 431] lgi        526  lgistat =   0  
+[2015/12/08 20:33:25 431] transport  655  switch 80  
+[2015/12/08 20:33:25 431] transport  662  net type:  standard  
+[2015/12/08 20:33:25 431] transport  663  net operator:  def  
+[2015/12/08 20:33:25 431] transport  664  use proxy:  false  
+[2015/12/08 20:33:25 431] lgi        324  [session] send lgi request  
+[2015/12/08 20:33:25 431] transport  864  ns_i =  nil  
+[2015/12/08 20:33:25 436] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:33:25 440] transport  136  [dns] [0] response 59.107.24.7  
+[2015/12/08 20:33:25 440] transport  144  59  107  24  7  
+[2015/12/08 20:33:25 440] transport  173  iplist not avail  
+[2015/12/08 20:33:25 440] transport  225  expected ip  
+[2015/12/08 20:33:25 441] transport  939  [soc] connect   59.107.24.7  80  
+[2015/12/08 20:33:25 498] transport  388  [soc] [0] connected  
+[2015/12/08 20:33:25 498] transport  978  build http request.  
+[2015/12/08 20:33:25 499] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:33:25 499] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:33:25 508] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:33:40 000 
+============================================================
+[2015/12/08 20:33:40 000] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:33:40 000] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(2c013a00) 
+[2015/12/08 20:33:40 001] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:33:40 001] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:33:40 001] lgi        382  auth_time_str=  2015/12/08 20:33:39  
+[2015/12/08 20:33:40 001] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:33:40 001] lgi        396  auth_check  true  
+[2015/12/08 20:33:40 001] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:33:40 002] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:33:40 002] lgi        526  lgistat =   0  
+[2015/12/08 20:33:40 002] transport  655  switch 80  
+[2015/12/08 20:33:40 002] transport  662  net type:  standard  
+[2015/12/08 20:33:40 002] transport  663  net operator:  def  
+[2015/12/08 20:33:40 002] transport  664  use proxy:  false  
+[2015/12/08 20:33:40 002] lgi        324  [session] send lgi request  
+[2015/12/08 20:33:40 002] transport  864  ns_i =  nil  
+[2015/12/08 20:33:40 005] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:33:40 007] transport  136  [dns] [0] response 117.121.21.147  
+[2015/12/08 20:33:40 007] transport  144  117  121  21  147  
+[2015/12/08 20:33:40 007] transport  173  iplist not avail  
+[2015/12/08 20:33:40 008] transport  225  expected ip  
+[2015/12/08 20:33:40 008] transport  939  [soc] connect   117.121.21.147  80  
+[2015/12/08 20:33:40 013] transport  388  [soc] [0] connected  
+[2015/12/08 20:33:40 013] transport  978  build http request.  
+[2015/12/08 20:33:40 013] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:33:40 016] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:33:40 064] transport  419  [soc] [0] readable  
+[2015/12/08 20:33:40 064] transport  1330 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 160
+X-Req-Date: 2015/12/08 20:33:40 10
+Cache-Control: no-cache
+CL: 160
+X-Res-Date: 2015/12/08 20:33:40 55
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&uid=u449578019&key=0bIxTQ956n57VDXhyAQScTvzEHKFwkcJinT8vskjmVCpi^^GHVr44O7CfKS9nDpsJHeSL7S63noSiL/4^C5Jf^XYv/j4Lkl/5d  
+[2015/12/08 20:33:40 064] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:33:40 064] transport  1200 port updated  80  
+[2015/12/08 20:33:40 064] transport  1202 switch  80  
+[2015/12/08 20:33:40 064] lgi        165  [trans] [id = lgi_] readable  
+[2015/12/08 20:33:40 064] transport  957  [soc] disconnect   
+[2015/12/08 20:33:40 065] lgi        195  lgi resp!  
+[2015/12/08 20:33:40 065] lgi        202  lgi ok!  
+[2015/12/08 20:33:40 078] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:33:48 343 
+============================================================
+[2015/12/08 20:33:48 343] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:33:48 345] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(80014800) 
+[2015/12/08 20:33:48 345] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:33:48 345] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:33:48 345] lgi        382  auth_time_str=  2015/12/08 20:33:48  
+[2015/12/08 20:33:48 345] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:33:48 346] lgi        396  auth_check  true  
+[2015/12/08 20:33:48 346] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:33:48 347] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:33:48 347] lgi        526  lgistat =   0  
+[2015/12/08 20:33:48 347] transport  655  switch 80  
+[2015/12/08 20:33:48 347] transport  662  net type:  standard  
+[2015/12/08 20:33:48 347] transport  663  net operator:  def  
+[2015/12/08 20:33:48 347] transport  664  use proxy:  false  
+[2015/12/08 20:33:48 347] lgi        324  [session] send lgi request  
+[2015/12/08 20:33:48 347] transport  864  ns_i =  nil  
+[2015/12/08 20:33:48 351] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:33:48 351] transport  136  [dns] [0] response 117.121.21.147  
+[2015/12/08 20:33:48 352] transport  144  117  121  21  147  
+[2015/12/08 20:33:48 352] transport  173  iplist not avail  
+[2015/12/08 20:33:48 352] transport  225  expected ip  
+[2015/12/08 20:33:48 352] transport  939  [soc] connect   117.121.21.147  80  
+[2015/12/08 20:33:48 390] transport  388  [soc] [0] connected  
+[2015/12/08 20:33:48 390] transport  978  build http request.  
+[2015/12/08 20:33:48 390] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:33:48 390] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:33:48 401] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:34:03 014 
+============================================================
+[2015/12/08 20:34:03 014] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:34:03 015] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(88013a00) 
+[2015/12/08 20:34:03 015] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:34:03 015] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:34:03 015] lgi        382  auth_time_str=  2015/12/08 20:34:03  
+[2015/12/08 20:34:03 015] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:34:03 015] lgi        396  auth_check  true  
+[2015/12/08 20:34:03 015] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:34:03 016] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:34:03 016] lgi        526  lgistat =   0  
+[2015/12/08 20:34:03 016] transport  655  switch 80  
+[2015/12/08 20:34:03 016] transport  662  net type:  standard  
+[2015/12/08 20:34:03 016] transport  663  net operator:  def  
+[2015/12/08 20:34:03 016] transport  664  use proxy:  false  
+[2015/12/08 20:34:03 016] lgi        324  [session] send lgi request  
+[2015/12/08 20:34:03 016] transport  864  ns_i =  nil  
+[2015/12/08 20:34:03 018] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:34:03 026] transport  136  [dns] [0] response 117.121.21.147  
+[2015/12/08 20:34:03 026] transport  144  117  121  21  147  
+[2015/12/08 20:34:03 026] transport  173  iplist not avail  
+[2015/12/08 20:34:03 026] transport  225  expected ip  
+[2015/12/08 20:34:03 026] transport  939  [soc] connect   117.121.21.147  80  
+[2015/12/08 20:34:03 050] transport  388  [soc] [0] connected  
+[2015/12/08 20:34:03 050] transport  978  build http request.  
+[2015/12/08 20:34:03 051] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:34:03 052] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:34:03 084] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:34:08 913 
+============================================================
+[2015/12/08 20:34:08 913] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:34:08 915] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(a8014800) 
+[2015/12/08 20:34:08 915] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:34:08 915] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:34:08 915] lgi        382  auth_time_str=  2015/12/08 20:34:08  
+[2015/12/08 20:34:08 915] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:34:08 915] lgi        396  auth_check  true  
+[2015/12/08 20:34:08 915] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:34:08 916] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:34:08 916] lgi        526  lgistat =   0  
+[2015/12/08 20:34:08 916] transport  655  switch 80  
+[2015/12/08 20:34:08 916] transport  662  net type:  standard  
+[2015/12/08 20:34:08 916] transport  663  net operator:  def  
+[2015/12/08 20:34:08 916] transport  664  use proxy:  false  
+[2015/12/08 20:34:08 916] lgi        324  [session] send lgi request  
+[2015/12/08 20:34:08 916] transport  864  ns_i =  nil  
+[2015/12/08 20:34:08 921] transport  136  [dns] [0] response 116.213.69.201  
+[2015/12/08 20:34:08 921] transport  144  116  213  69  201  
+[2015/12/08 20:34:08 922] transport  173  iplist not avail  
+[2015/12/08 20:34:08 922] transport  225  expected ip  
+[2015/12/08 20:34:08 922] transport  939  [soc] connect   116.213.69.201  80  
+[2015/12/08 20:34:08 923] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:34:08 943] transport  388  [soc] [0] connected  
+[2015/12/08 20:34:08 943] transport  978  build http request.  
+[2015/12/08 20:34:08 943] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:34:08 949] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:34:08 977] transport  419  [soc] [0] readable  
+[2015/12/08 20:34:08 978] transport  1330 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 160
+X-Req-Date: 2015/12/08 20:23:09 882
+Cache-Control: no-cache
+CL: 160
+X-Res-Date: 2015/12/08 20:23:09 903
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&uid=u449578048&key=0bW/tp891W673WPZ0hIN7BP00amZCxJeL3jXt8O6rzxGu^^GHVr44O7CfKS9nDpsJHJLhBO9La62mL/4^C5Jf^XYv/j4Lkl/5d  
+[2015/12/08 20:34:08 978] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:34:08 978] transport  1200 port updated  80  
+[2015/12/08 20:34:08 978] transport  1202 switch  80  
+[2015/12/08 20:34:08 979] lgi        165  [trans] [id = lgi_] readable  
+[2015/12/08 20:34:08 979] transport  957  [soc] disconnect   
+[2015/12/08 20:34:08 980] lgi        195  lgi resp!  
+[2015/12/08 20:34:08 980] lgi        202  lgi ok!  
+[2015/12/08 20:34:08 989] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:35:51 468 
+============================================================
+[2015/12/08 20:35:51 469] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:35:51 469] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(d4014840) 
+[2015/12/08 20:35:51 469] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:35:51 469] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:35:51 470] lgi        382  auth_time_str=  2015/12/08 20:35:51  
+[2015/12/08 20:35:51 470] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:35:51 470] lgi        396  auth_check  true  
+[2015/12/08 20:35:51 470] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:35:51 470] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:35:51 470] lgi        526  lgistat =   0  
+[2015/12/08 20:35:51 470] transport  655  switch 80  
+[2015/12/08 20:35:51 470] transport  662  net type:  standard  
+[2015/12/08 20:35:51 470] transport  663  net operator:  def  
+[2015/12/08 20:35:51 470] transport  664  use proxy:  false  
+[2015/12/08 20:35:51 470] lgi        324  [session] send lgi request  
+[2015/12/08 20:35:51 470] transport  864  ns_i =  nil  
+[2015/12/08 20:35:51 471] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:35:51 479] transport  136  [dns] [0] response 116.213.69.199  
+[2015/12/08 20:35:51 480] transport  144  116  213  69  199  
+[2015/12/08 20:35:51 486] transport  173  iplist not avail  
+[2015/12/08 20:35:51 486] transport  225  expected ip  
+[2015/12/08 20:35:51 486] transport  939  [soc] connect   116.213.69.199  80  
+[2015/12/08 20:35:51 494] transport  388  [soc] [0] connected  
+[2015/12/08 20:35:51 494] transport  978  build http request.  
+[2015/12/08 20:35:51 494] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:35:51 495] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:35:51 520] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:36:48 557 
+============================================================
+[2015/12/08 20:36:48 557] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:36:48 558] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(80014800) 
+[2015/12/08 20:36:48 558] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:36:48 558] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:36:48 559] lgi        382  auth_time_str=  2015/12/08 20:36:48  
+[2015/12/08 20:36:48 559] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:36:48 559] lgi        396  auth_check  true  
+[2015/12/08 20:36:48 559] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:36:48 559] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:36:48 559] lgi        526  lgistat =   0  
+[2015/12/08 20:36:48 559] transport  655  switch 80  
+[2015/12/08 20:36:48 559] transport  662  net type:  standard  
+[2015/12/08 20:36:48 560] transport  663  net operator:  def  
+[2015/12/08 20:36:48 560] transport  664  use proxy:  false  
+[2015/12/08 20:36:48 560] lgi        324  [session] send lgi request  
+[2015/12/08 20:36:48 560] transport  864  ns_i =  nil  
+[2015/12/08 20:36:48 563] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:36:48 566] transport  136  [dns] [0] response 59.107.24.11  
+[2015/12/08 20:36:48 566] transport  144  59  107  24  11  
+[2015/12/08 20:36:48 566] transport  173  iplist not avail  
+[2015/12/08 20:36:48 566] transport  225  expected ip  
+[2015/12/08 20:36:48 567] transport  939  [soc] connect   59.107.24.11  80  
+[2015/12/08 20:36:48 634] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:36:59 916 
+============================================================
+[2015/12/08 20:36:59 916] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:36:59 917] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(b0014800) 
+[2015/12/08 20:36:59 917] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:36:59 917] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:36:59 918] lgi        382  auth_time_str=  2015/12/08 20:36:59  
+[2015/12/08 20:36:59 918] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:36:59 918] lgi        396  auth_check  true  
+[2015/12/08 20:36:59 918] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:36:59 918] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:36:59 918] lgi        526  lgistat =   0  
+[2015/12/08 20:36:59 919] transport  655  switch 80  
+[2015/12/08 20:36:59 919] transport  662  net type:  standard  
+[2015/12/08 20:36:59 919] transport  663  net operator:  def  
+[2015/12/08 20:36:59 919] transport  664  use proxy:  false  
+[2015/12/08 20:36:59 919] lgi        324  [session] send lgi request  
+[2015/12/08 20:36:59 919] transport  864  ns_i =  nil  
+[2015/12/08 20:36:59 920] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:36:59 922] transport  136  [dns] [0] response 59.107.24.11  
+[2015/12/08 20:36:59 922] transport  144  59  107  24  11  
+[2015/12/08 20:36:59 922] transport  173  iplist not avail  
+[2015/12/08 20:36:59 922] transport  225  expected ip  
+[2015/12/08 20:36:59 922] transport  939  [soc] connect   59.107.24.11  80  
+[2015/12/08 20:36:59 966] transport  388  [soc] [0] connected  
+[2015/12/08 20:36:59 966] transport  978  build http request.  
+[2015/12/08 20:36:59 966] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:36:59 967] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:36:59 973] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:37:02 402 
+============================================================
+[2015/12/08 20:37:02 402] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:37:02 403] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(64014800) 
+[2015/12/08 20:37:02 403] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:37:02 403] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:37:02 404] lgi        382  auth_time_str=  2015/12/08 20:37:02  
+[2015/12/08 20:37:02 404] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:37:02 404] lgi        396  auth_check  true  
+[2015/12/08 20:37:02 404] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:37:02 405] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:37:02 405] lgi        526  lgistat =   0  
+[2015/12/08 20:37:02 405] transport  655  switch 80  
+[2015/12/08 20:37:02 405] transport  662  net type:  standard  
+[2015/12/08 20:37:02 405] transport  663  net operator:  def  
+[2015/12/08 20:37:02 405] transport  664  use proxy:  false  
+[2015/12/08 20:37:02 405] lgi        324  [session] send lgi request  
+[2015/12/08 20:37:02 405] transport  864  ns_i =  nil  
+[2015/12/08 20:37:02 412] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:37:02 424] transport  136  [dns] [0] response 116.213.69.200  
+[2015/12/08 20:37:02 425] transport  144  116  213  69  200  
+[2015/12/08 20:37:02 425] transport  173  iplist not avail  
+[2015/12/08 20:37:02 430] transport  225  expected ip  
+[2015/12/08 20:37:02 430] transport  939  [soc] connect   116.213.69.200  80  
+[2015/12/08 20:37:02 433] transport  388  [soc] [0] connected  
+[2015/12/08 20:37:02 433] transport  978  build http request.  
+[2015/12/08 20:37:02 433] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:37:02 434] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:37:02 450] transport  419  [soc] [0] readable  
+[2015/12/08 20:37:02 450] transport  1330 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 160
+X-Req-Date: 2015/12/08 20:37:02 428
+Cache-Control: no-cache
+CL: 160
+X-Res-Date: 2015/12/08 20:37:02 440
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&uid=u449578222&key=0b2tD9V/bgPKL5OJyx7LsxuMzydEhkRjH6p5wfb^ENQbC^^GHVr44O7CfKS9nDpsJHyYBfONXC3YKL/4^C5Jf^XYv/j4Lkl/5d  
+[2015/12/08 20:37:02 450] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:37:02 451] transport  1200 port updated  80  
+[2015/12/08 20:37:02 451] transport  1202 switch  80  
+[2015/12/08 20:37:02 451] lgi        165  [trans] [id = lgi_] readable  
+[2015/12/08 20:37:02 451] transport  957  [soc] disconnect   
+[2015/12/08 20:37:02 452] lgi        195  lgi resp!  
+[2015/12/08 20:37:02 452] lgi        202  lgi ok!  
+[2015/12/08 20:37:02 494] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:39:24 930 
+============================================================
+[2015/12/08 20:39:24 930] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:39:24 932] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(f8014800) 
+[2015/12/08 20:39:24 932] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:39:24 932] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:39:24 932] lgi        382  auth_time_str=  2015/12/08 20:39:24  
+[2015/12/08 20:39:24 933] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:39:24 933] lgi        396  auth_check  true  
+[2015/12/08 20:39:24 933] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:39:24 934] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:39:24 934] lgi        526  lgistat =   0  
+[2015/12/08 20:39:24 934] transport  655  switch 80  
+[2015/12/08 20:39:24 934] transport  662  net type:  standard  
+[2015/12/08 20:39:24 934] transport  663  net operator:  def  
+[2015/12/08 20:39:24 934] transport  664  use proxy:  false  
+[2015/12/08 20:39:24 934] lgi        324  [session] send lgi request  
+[2015/12/08 20:39:24 934] transport  864  ns_i =  nil  
+[2015/12/08 20:39:24 936] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:39:24 944] transport  136  [dns] [0] response 117.121.21.147  
+[2015/12/08 20:39:24 944] transport  144  117  121  21  147  
+[2015/12/08 20:39:24 944] transport  173  iplist not avail  
+[2015/12/08 20:39:24 945] transport  225  expected ip  
+[2015/12/08 20:39:24 945] transport  939  [soc] connect   117.121.21.147  80  
+[2015/12/08 20:39:24 952] transport  388  [soc] [0] connected  
+[2015/12/08 20:39:24 952] transport  978  build http request.  
+[2015/12/08 20:39:24 958] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:39:24 959] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:39:24 990] transport  419  [soc] [0] readable  
+[2015/12/08 20:39:24 990] transport  1330 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 160
+X-Req-Date: 2015/12/08 20:39:24 966
+Cache-Control: no-cache
+CL: 160
+X-Res-Date: 2015/12/08 20:39:24 974
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&uid=u449578364&key=0b7p4^pGXRJmKuy5AQAovl7RHKldrSiQhx71akxAWJrmO^^GHVr44O7CfKS9nDpsJHmrhR9lJY7jiL/4^C5Jf^XYv/j4Lkl/5d  
+[2015/12/08 20:39:24 990] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:39:24 990] transport  1200 port updated  80  
+[2015/12/08 20:39:24 990] transport  1202 switch  80  
+[2015/12/08 20:39:24 990] lgi        165  [trans] [id = lgi_] readable  
+[2015/12/08 20:39:24 990] transport  957  [soc] disconnect   
+[2015/12/08 20:39:24 991] lgi        195  lgi resp!  
+[2015/12/08 20:39:24 991] lgi        202  lgi ok!  
+[2015/12/08 20:39:25 018] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:47:01 213 
+============================================================
+[2015/12/08 20:47:01 213] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:47:01 214] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(ac014880) 
+[2015/12/08 20:47:01 214] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:47:01 214] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:47:01 215] lgi        382  auth_time_str=  2015/12/08 20:47:01  
+[2015/12/08 20:47:01 215] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:47:01 215] lgi        396  auth_check  true  
+[2015/12/08 20:47:01 215] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:47:01 216] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:47:01 216] lgi        526  lgistat =   0  
+[2015/12/08 20:47:01 216] transport  655  switch 80  
+[2015/12/08 20:47:01 216] transport  662  net type:  standard  
+[2015/12/08 20:47:01 216] transport  663  net operator:  def  
+[2015/12/08 20:47:01 216] transport  664  use proxy:  false  
+[2015/12/08 20:47:01 216] lgi        324  [session] send lgi request  
+[2015/12/08 20:47:01 216] transport  864  ns_i =  nil  
+[2015/12/08 20:47:01 217] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:47:01 221] transport  136  [dns] [0] response 59.107.24.5  
+[2015/12/08 20:47:01 221] transport  144  59  107  24  5  
+[2015/12/08 20:47:01 221] transport  173  iplist not avail  
+[2015/12/08 20:47:01 222] transport  225  expected ip  
+[2015/12/08 20:47:01 222] transport  939  [soc] connect   59.107.24.5  80  
+[2015/12/08 20:47:01 287] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:49:30 982 
+============================================================
+[2015/12/08 20:49:30 982] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:49:30 983] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(14014840) 
+[2015/12/08 20:49:30 983] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:49:30 983] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:49:30 983] lgi        382  auth_time_str=  2015/12/08 20:49:30  
+[2015/12/08 20:49:30 983] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:49:30 983] lgi        396  auth_check  true  
+[2015/12/08 20:49:30 983] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:49:30 984] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:49:30 984] lgi        526  lgistat =   0  
+[2015/12/08 20:49:30 984] transport  655  switch 80  
+[2015/12/08 20:49:30 984] transport  662  net type:  standard  
+[2015/12/08 20:49:30 984] transport  663  net operator:  def  
+[2015/12/08 20:49:30 984] transport  664  use proxy:  false  
+[2015/12/08 20:49:30 984] lgi        324  [session] send lgi request  
+[2015/12/08 20:49:30 984] transport  864  ns_i =  nil  
+[2015/12/08 20:49:30 986] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:49:30 997] transport  136  [dns] [0] response 117.121.21.146  
+[2015/12/08 20:49:30 997] transport  144  117  121  21  146  
+[2015/12/08 20:49:30 997] transport  173  iplist not avail  
+[2015/12/08 20:49:30 997] transport  225  expected ip  
+[2015/12/08 20:49:30 997] transport  939  [soc] connect   117.121.21.146  80  
+[2015/12/08 20:49:31 013] transport  388  [soc] [0] connected  
+[2015/12/08 20:49:31 013] transport  978  build http request.  
+[2015/12/08 20:49:31 013] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:49:31 015] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:49:31 051] transport  419  [soc] [0] readable  
+[2015/12/08 20:49:31 051] transport  1330 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 160
+X-Req-Date: 2015/12/08 20:49:31 10
+Cache-Control: no-cache
+CL: 160
+X-Res-Date: 2015/12/08 20:49:31 44
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&uid=u449578970&key=0bN^t8wvY8ZZPFXa8Cxwc0z3yj0oNZNMAvacRH0QR7D32^^GHVr44O7CfKS9nDpsJH5vDYnX5idvKL/4^C5Jf^XYv/j4Lkl/5d  
+[2015/12/08 20:49:31 051] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:49:31 051] transport  1200 port updated  80  
+[2015/12/08 20:49:31 051] transport  1202 switch  80  
+[2015/12/08 20:49:31 052] lgi        165  [trans] [id = lgi_] readable  
+[2015/12/08 20:49:31 052] transport  957  [soc] disconnect   
+[2015/12/08 20:49:31 052] lgi        195  lgi resp!  
+[2015/12/08 20:49:31 052] lgi        202  lgi ok!  
+[2015/12/08 20:49:31 058] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:50:07 480 
+============================================================
+[2015/12/08 20:50:07 480] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:50:07 481] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(bc014800) 
+[2015/12/08 20:50:07 481] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:50:07 481] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:50:07 482] lgi        382  auth_time_str=  2015/12/08 20:50:07  
+[2015/12/08 20:50:07 482] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:50:07 482] lgi        396  auth_check  true  
+[2015/12/08 20:50:07 482] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:50:07 482] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:50:07 483] lgi        526  lgistat =   0  
+[2015/12/08 20:50:07 483] transport  655  switch 80  
+[2015/12/08 20:50:07 483] transport  662  net type:  standard  
+[2015/12/08 20:50:07 483] transport  663  net operator:  def  
+[2015/12/08 20:50:07 483] transport  664  use proxy:  false  
+[2015/12/08 20:50:07 483] lgi        324  [session] send lgi request  
+[2015/12/08 20:50:07 483] transport  864  ns_i =  nil  
+[2015/12/08 20:50:07 484] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:50:07 489] transport  136  [dns] [0] response 116.213.69.201  
+[2015/12/08 20:50:07 489] transport  144  116  213  69  201  
+[2015/12/08 20:50:07 489] transport  173  iplist not avail  
+[2015/12/08 20:50:07 489] transport  225  expected ip  
+[2015/12/08 20:50:07 489] transport  939  [soc] connect   116.213.69.201  80  
+[2015/12/08 20:50:07 494] transport  388  [soc] [0] connected  
+[2015/12/08 20:50:07 494] transport  978  build http request.  
+[2015/12/08 20:50:07 494] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:50:07 495] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:50:07 524] transport  419  [soc] [0] readable  
+[2015/12/08 20:50:07 525] transport  1330 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 160
+X-Req-Date: 2015/12/08 20:39:08 429
+Cache-Control: no-cache
+CL: 160
+X-Res-Date: 2015/12/08 20:39:08 452
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&uid=u449579007&key=0bpXo1U6W6srLp^UATAO/yIUEaLQhLyzQp^rcLSjy0zQm^^GHVr44O7CfKS9nDpsJHxShmMZ7a/bqL/4^C5Jf^XYv/j4Lkl/5d  
+[2015/12/08 20:50:07 525] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:50:07 525] transport  1200 port updated  80  
+[2015/12/08 20:50:07 525] transport  1202 switch  80  
+[2015/12/08 20:50:07 525] lgi        165  [trans] [id = lgi_] readable  
+[2015/12/08 20:50:07 525] transport  957  [soc] disconnect   
+[2015/12/08 20:50:07 527] lgi        195  lgi resp!  
+[2015/12/08 20:50:07 528] lgi        202  lgi ok!  
+[2015/12/08 20:50:07 587] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:50:46 812 
+============================================================
+[2015/12/08 20:50:46 812] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:50:46 812] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(58014800) 
+[2015/12/08 20:50:46 812] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:50:46 813] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:50:46 813] lgi        382  auth_time_str=  2015/12/08 20:50:46  
+[2015/12/08 20:50:46 813] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:50:46 813] lgi        396  auth_check  true  
+[2015/12/08 20:50:46 813] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:50:46 813] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:50:46 813] lgi        526  lgistat =   0  
+[2015/12/08 20:50:46 813] transport  655  switch 80  
+[2015/12/08 20:50:46 813] transport  662  net type:  standard  
+[2015/12/08 20:50:46 813] transport  663  net operator:  def  
+[2015/12/08 20:50:46 813] transport  664  use proxy:  false  
+[2015/12/08 20:50:46 813] lgi        324  [session] send lgi request  
+[2015/12/08 20:50:46 813] transport  864  ns_i =  nil  
+[2015/12/08 20:50:46 814] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:50:46 825] transport  136  [dns] [0] response 117.121.21.147  
+[2015/12/08 20:50:46 825] transport  144  117  121  21  147  
+[2015/12/08 20:50:46 825] transport  173  iplist not avail  
+[2015/12/08 20:50:46 826] transport  225  expected ip  
+[2015/12/08 20:50:46 827] transport  939  [soc] connect   117.121.21.147  80  
+[2015/12/08 20:50:46 839] transport  388  [soc] [0] connected  
+[2015/12/08 20:50:46 839] transport  978  build http request.  
+[2015/12/08 20:50:46 839] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:50:46 841] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:50:46 862] transport  419  [soc] [0] readable  
+[2015/12/08 20:50:46 862] transport  1330 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 160
+X-Req-Date: 2015/12/08 20:50:46 836
+Cache-Control: no-cache
+CL: 160
+X-Res-Date: 2015/12/08 20:50:46 848
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&uid=u449579046&key=0bKFkYLlX6Y6DC8^0yAunu9caXgmEIAMIshy5r1AeiKeu^^GHVr44O7CfKS9nDpsJHfzBAv^FNopKL/4^C5Jf^XYv/j4Lkl/5d  
+[2015/12/08 20:50:46 862] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:50:46 862] transport  1200 port updated  80  
+[2015/12/08 20:50:46 862] transport  1202 switch  80  
+[2015/12/08 20:50:46 862] lgi        165  [trans] [id = lgi_] readable  
+[2015/12/08 20:50:46 862] transport  957  [soc] disconnect   
+[2015/12/08 20:50:46 863] lgi        195  lgi resp!  
+[2015/12/08 20:50:46 863] lgi        202  lgi ok!  
+[2015/12/08 20:50:46 903] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/12/08 20:54:39 250 
+============================================================
+[2015/12/08 20:54:39 250] lgi        597  SYS_MSG_LOAD  
+[2015/12/08 20:54:39 251] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(c0014880) 
+[2015/12/08 20:54:39 251] lgi        343  LGI_MSG_INIT  
+[2015/12/08 20:54:39 251] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/12/08 20:54:39 251] lgi        382  auth_time_str=  2015/12/08 20:54:39  
+[2015/12/08 20:54:39 251] lgi        388  auth_appid=  565d1316  
+[2015/12/08 20:54:39 251] lgi        396  auth_check  true  
+[2015/12/08 20:54:39 251] lgi        407  read auth file failed! err=  11200  
+[2015/12/08 20:54:39 252] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/12/08 20:54:39 252] lgi        526  lgistat =   0  
+[2015/12/08 20:54:39 252] transport  655  switch 80  
+[2015/12/08 20:54:39 252] transport  662  net type:  standard  
+[2015/12/08 20:54:39 252] transport  663  net operator:  def  
+[2015/12/08 20:54:39 252] transport  664  use proxy:  false  
+[2015/12/08 20:54:39 252] lgi        324  [session] send lgi request  
+[2015/12/08 20:54:39 253] transport  864  ns_i =  nil  
+[2015/12/08 20:54:39 254] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/12/08 20:54:39 263] transport  136  [dns] [0] response 116.213.69.200  
+[2015/12/08 20:54:39 263] transport  144  116  213  69  200  
+[2015/12/08 20:54:39 263] transport  173  iplist not avail  
+[2015/12/08 20:54:39 264] transport  225  expected ip  
+[2015/12/08 20:54:39 264] transport  939  [soc] connect   116.213.69.200  80  
+[2015/12/08 20:54:39 274] transport  388  [soc] [0] connected  
+[2015/12/08 20:54:39 274] transport  978  build http request.  
+[2015/12/08 20:54:39 275] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 323
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:72
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E1%2E0%2E1043&key=08Xj^Adnf/A6g=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+8†5ª≤®jòÅxyzz{áÖÖ|  
+[2015/12/08 20:54:39 277] transport  410  [soc] [0] send ok  498  
+[2015/12/08 20:54:39 320] transport  419  [soc] [0] readable  
+[2015/12/08 20:54:39 320] transport  1330 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 160
+X-Req-Date: 2015/12/08 20:54:39 271
+Cache-Control: no-cache
+CL: 160
+X-Res-Date: 2015/12/08 20:54:39 288
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&uid=u449579279&key=0bX8xExRfDF1nZhoL^cIzfu0sr^zbECM5p1DQNCStlSLm^^GHVr44O7CfKS9nDpsJHX4tvPiJM3YuL/4^C5Jf^XYv/j4Lkl/5d  
+[2015/12/08 20:54:39 320] transport  1099 a_complete_httpmessage  200  
+[2015/12/08 20:54:39 321] transport  1200 port updated  80  
+[2015/12/08 20:54:39 321] transport  1202 switch  80  
+[2015/12/08 20:54:39 321] lgi        165  [trans] [id = lgi_] readable  
+[2015/12/08 20:54:39 321] transport  957  [soc] disconnect   
+[2015/12/08 20:54:39 323] lgi        195  lgi resp!  
+[2015/12/08 20:54:39 323] lgi        202  lgi ok!  
+[2015/12/08 20:54:39 369] lgi        610  SYS_MSG_SHUTDOWN  
